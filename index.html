@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <body>
+        <center>
+            <span class="text">Addition Of Matrix</span>
+            <br>
+            <form onsubmit="return false">
+                <input placeholder="Enter Number of Rows" type="number" required min="2" id="input1"> X
+                <input placeholder="Enter Number of Column" type="number" required min="2" id="input2">
+                <br>
+                <button id="hu" onclick="start()">Generate Matrix</button>
+            </form>
+            <br>
+            <br>
+            <div id="bnm" class="klp">
+                <div id="matrix1" class="mp"></div>
+                <br>
+                +
+                <div id="matrix2" class="mp"></div>
+                <br>
+                <button onclick="sum()">Sum</button>
+                <br>
+                <div id="resultMatrix" class="mp"></div>
+            </div>
+        </center>
+
+
+    </body>
+    <script src="app.js"></script>
+
+</html>
