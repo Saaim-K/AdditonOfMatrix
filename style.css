@@ -1,8 +1,8 @@
 body,html{
     margin: 0;
     padding: 0;
-    background-color: black;
-    color: white;
+    /* background-color: black;
+    color: white; */
 }
 /* -------------------- Gradient Text -------------------- */
 .text{
@@ -36,12 +36,20 @@ body,html{
 /* -------------------- Gradient Text -------------------- */
 .container{
     border: 2px solid red;
-    height: 20vh;
+    height: 5vh;
     margin-top: 10px;
     padding: 20px;
+    display: flex;
+    justify-content: space-around;
 }
 /* -------------------- Gradient Text -------------------- */
-
+input{
+    width: 200px;
+    padding: 5px;
+    height: 30px;
+    font-size: 20px;
+    
+}
 
 
 

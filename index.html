@@ -14,12 +14,12 @@
         Addition Of Matrix
     </div>
     <div class="container">
-        <!-- <form action="">
-            <table>
-                Enter Number Of Rows<input type="number" min="2" required>
-                Enter Number Of Column<input type="number" min="2" required>
-            </table>
-        </form> -->
+        <form onsubmit="return false">
+            <input id="row" placeholder="Enter Number Of Rows" type="number" min="2" required>
+            <span> X </span>
+            <input id="col" placeholder="Enter Number Of Column" type="number" min="2" required>
+            <button onclick="check();">Submit</button>
+        </form>
     </div>
 </body>
 <script src="app.js"></script>
