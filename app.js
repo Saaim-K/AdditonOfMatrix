@@ -10,10 +10,10 @@ function start() {
     matrix2.innerHTML = "";
     resultMatrix.innerHTML = "";
 
-    input1 = +document.querySelector('#input1').value
-    input2 = +document.querySelector('#input2').value
-    for (let i = 0; i < input1; i++) {
-        for (let j = 0; j < input2; j++) {
+    input1 = +document.querySelector('#input1').value//5
+    input2 = +document.querySelector('#input2').value//4
+    for (let i = 0; i < input1; i++) {//0
+        for (let j = 0; j < input2; j++) {//0
             matrix1.innerHTML +=
                 `<input type="number" required min="0" max="100" id="m1-${i}-${j}" value='0'>`;
             matrix2.innerHTML +=
@@ -25,7 +25,6 @@ function start() {
         matrix2.innerHTML += `<br>`
         resultMatrix.innerHTML += `<br>`
     }
-    document.querySelector('#bnm').classList.remove('klp')
 }
 function sum() {
     for (let i = 0; i < input1; i++) {
